@@ -1,0 +1,60 @@
+/* Write your code here. */
+*box {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.superOverLeague {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+@media screen and (max-width: 567px) {
+  .logo-image {
+    height: 100px;
+    width: 100px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .logo-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-image {
+    height: 300px;
+    width: 300px;
+  }
+  .heading {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .logo-image {
+    height: 320px;
+    width: 320px;
+  }
+  .heading {
+    font-size: 45px;
+  }
+}
